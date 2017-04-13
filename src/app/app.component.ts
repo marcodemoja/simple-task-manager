@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  selector: 'simple-task-manager',
+  template: `<simple-task-manager></simple-task-manager>`,
 })
-export class AppComponent  { name = 'Angular'; }
+
+export class AppComponent  { }
